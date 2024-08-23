@@ -1,0 +1,156 @@
+{
+  "abstract" : [
+    {
+      "text" : "A protocol in the inner target.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/Inner\/documentation\/Inner"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Inner\/documentation\/Inner\/InnerProtocol"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:5Inner0A8ProtocolP",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "protocol"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "InnerProtocol"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Inner"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "InnerProtocol"
+      }
+    ],
+    "remoteSource" : {
+      "fileName" : "Inner.swift",
+      "url" : "https:\/\/github.com\/d-ronnqvist\/CombinedDocumentationExample\/blob\/main\/Sources\/Inner\/Inner.swift#L23"
+    },
+    "role" : "symbol",
+    "roleHeading" : "Protocol",
+    "symbolKind" : "protocol",
+    "title" : "InnerProtocol"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "protocol"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "InnerProtocol"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/inner\/innerprotocol"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Inner/documentation/Inner": {
+  "abstract" : [
+    {
+      "text" : "The inner module of this combined-documentation example",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/Inner\/documentation\/Inner",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Inner",
+  "type" : "topic",
+  "url" : "\/documentation\/inner"
+},
+"doc://Inner/documentation/Inner/InnerProtocol": {
+  "abstract" : [
+    {
+      "text" : "A protocol in the inner target.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "InnerProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/Inner\/documentation\/Inner\/InnerProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "InnerProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "InnerProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/inner\/innerprotocol"
+}
+}
+}

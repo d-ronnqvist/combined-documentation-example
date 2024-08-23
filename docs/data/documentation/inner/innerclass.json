@@ -1,0 +1,156 @@
+{
+  "abstract" : [
+    {
+      "text" : "A class in the inner target.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/Inner\/documentation\/Inner"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Inner\/documentation\/Inner\/InnerClass"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:5Inner0A5ClassC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "InnerClass"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Inner"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "InnerClass"
+      }
+    ],
+    "remoteSource" : {
+      "fileName" : "Inner.swift",
+      "url" : "https:\/\/github.com\/d-ronnqvist\/CombinedDocumentationExample\/blob\/main\/Sources\/Inner\/Inner.swift#L26"
+    },
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "InnerClass"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "InnerClass"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/inner\/innerclass"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Inner/documentation/Inner": {
+  "abstract" : [
+    {
+      "text" : "The inner module of this combined-documentation example",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/Inner\/documentation\/Inner",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Inner",
+  "type" : "topic",
+  "url" : "\/documentation\/inner"
+},
+"doc://Inner/documentation/Inner/InnerClass": {
+  "abstract" : [
+    {
+      "text" : "A class in the inner target.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "InnerClass"
+    }
+  ],
+  "identifier" : "doc:\/\/Inner\/documentation\/Inner\/InnerClass",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "InnerClass"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "InnerClass",
+  "type" : "topic",
+  "url" : "\/documentation\/inner\/innerclass"
+}
+}
+}

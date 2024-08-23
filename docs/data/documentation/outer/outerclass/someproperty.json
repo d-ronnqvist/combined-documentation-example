@@ -1,0 +1,296 @@
+{
+  "abstract" : [
+    {
+      "text" : "A property that returns a ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Inner\/documentation\/Inner\/InnerValue",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " value.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/Outer\/documentation\/Outer",
+        "doc:\/\/Outer\/documentation\/Outer\/OuterClass"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Outer\/documentation\/Outer\/OuterClass\/someProperty"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:5Outer0A5ClassC12someProperty5Inner0E5ValueVvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "someProperty"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:5Inner0A5ValueV",
+        "text" : "InnerValue"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Outer"
+      }
+    ],
+    "remoteSource" : {
+      "fileName" : "Outer.swift",
+      "url" : "https:\/\/github.com\/d-ronnqvist\/CombinedDocumentationExample\/blob\/main\/Sources\/Outer\/Outer.swift#L38"
+    },
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "someProperty"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "someProperty"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/Inner\/documentation\/Inner\/InnerValue",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:5Inner0A5ValueV",
+              "text" : "InnerValue"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "On the rendered page, the “InnerValue” element in the declaration is a clickable link.",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "This happens automatically.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "Tip",
+          "style" : "tip",
+          "type" : "aside"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/outer\/outerclass\/someproperty"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Inner/documentation/Inner/InnerValue": {
+  "abstract" : [
+    {
+      "text" : "A public value in inner target.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "InnerValue"
+    }
+  ],
+  "identifier" : "doc:\/\/Inner\/documentation\/Inner\/InnerValue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "InnerValue",
+  "type" : "topic",
+  "url" : "\/documentation\/inner\/innervalue"
+},
+"doc://Outer/documentation/Outer": {
+  "abstract" : [
+    {
+      "text" : "The outer module of this combined-documentation example.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/Outer\/documentation\/Outer",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Outer",
+  "type" : "topic",
+  "url" : "\/documentation\/outer"
+},
+"doc://Outer/documentation/Outer/OuterClass": {
+  "abstract" : [
+    {
+      "text" : "A class in the outer target",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OuterClass"
+    }
+  ],
+  "identifier" : "doc:\/\/Outer\/documentation\/Outer\/OuterClass",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OuterClass"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OuterClass",
+  "type" : "topic",
+  "url" : "\/documentation\/outer\/outerclass"
+},
+"doc://Outer/documentation/Outer/OuterClass/someProperty": {
+  "abstract" : [
+    {
+      "text" : "A property that returns a ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Inner\/documentation\/Inner\/InnerValue",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "someProperty"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5Inner0A5ValueV",
+      "text" : "InnerValue"
+    }
+  ],
+  "identifier" : "doc:\/\/Outer\/documentation\/Outer\/OuterClass\/someProperty",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "someProperty",
+  "type" : "topic",
+  "url" : "\/documentation\/outer\/outerclass\/someproperty"
+}
+}
+}

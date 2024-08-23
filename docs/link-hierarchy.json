@@ -1,0 +1,97 @@
+{
+  "bundleID" : "Inner",
+  "nonSymbolPaths" : {
+    "1" : "\/documentation\/Inner#My-Classes",
+    "3" : "\/documentation\/Inner#My-Protocols",
+    "4" : "\/tutorials",
+    "5" : "\/tutorials\/Inner",
+    "8" : "\/documentation\/Inner#My-Structs"
+  },
+  "pathHierarchy" : {
+    "articlesContainer" : 7,
+    "modules" : [
+      7
+    ],
+    "nodes" : [
+      {
+        "name" : "InnerProtocol",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:5Inner0A8ProtocolP"
+        }
+      },
+      {
+        "name" : "My-Classes"
+      },
+      {
+        "name" : "InnerClass",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:5Inner0A5ClassC"
+        }
+      },
+      {
+        "name" : "My-Protocols"
+      },
+      {
+        "name" : "tutorials"
+      },
+      {
+        "name" : "Inner"
+      },
+      {
+        "name" : "InnerValue",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "s:5Inner0A5ValueV"
+        }
+      },
+      {
+        "children" : [
+          {
+            "kind" : "anchor",
+            "nodeID" : 3
+          },
+          {
+            "hash" : "23vf5",
+            "kind" : "class",
+            "nodeID" : 2
+          },
+          {
+            "hash" : "5jv6l",
+            "kind" : "struct",
+            "nodeID" : 6
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 1
+          },
+          {
+            "kind" : "anchor",
+            "nodeID" : 8
+          },
+          {
+            "hash" : "3hhcv",
+            "kind" : "protocol",
+            "nodeID" : 0
+          }
+        ],
+        "name" : "Inner",
+        "symbolID" : {
+          "interfaceLanguage" : "swift",
+          "precise" : "Inner"
+        }
+      },
+      {
+        "name" : "My-Structs"
+      }
+    ],
+    "tutorialContainer" : 5,
+    "tutorialOverviewContainer" : 4
+  },
+  "version" : {
+    "major" : 0,
+    "minor" : 1,
+    "patch" : 0
+  }
+}

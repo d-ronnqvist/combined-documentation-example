@@ -1,0 +1,273 @@
+{
+  "abstract" : [
+    {
+      "text" : "The inner module of this combined-documentation example",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Inner\/documentation\/Inner"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "Inner",
+    "modules" : [
+      {
+        "name" : "Inner"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "Inner"
+  },
+  "primaryContentSections" : [
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Here I link to some topic sections: ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Inner\/documentation\/Inner#My-Classes",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ", ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Inner\/documentation\/Inner#My-Protocols",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ", and ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Inner\/documentation\/Inner#My-Structs",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ".",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "My-Classes",
+      "identifiers" : [
+        "doc:\/\/Inner\/documentation\/Inner\/InnerClass"
+      ],
+      "title" : "My Classes"
+    },
+    {
+      "anchor" : "My-Protocols",
+      "identifiers" : [
+        "doc:\/\/Inner\/documentation\/Inner\/InnerProtocol"
+      ],
+      "title" : "My Protocols"
+    },
+    {
+      "anchor" : "My-Structs",
+      "identifiers" : [
+        "doc:\/\/Inner\/documentation\/Inner\/InnerValue"
+      ],
+      "title" : "My Structs"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/inner"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Inner/documentation/Inner": {
+  "abstract" : [
+    {
+      "text" : "The inner module of this combined-documentation example",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/Inner\/documentation\/Inner",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Inner",
+  "type" : "topic",
+  "url" : "\/documentation\/inner"
+},
+"doc://Inner/documentation/Inner#My-Classes": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Inner\/documentation\/Inner#My-Classes",
+  "kind" : "section",
+  "title" : "My Classes",
+  "type" : "topic",
+  "url" : "\/documentation\/inner#My-Classes"
+},
+"doc://Inner/documentation/Inner#My-Protocols": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Inner\/documentation\/Inner#My-Protocols",
+  "kind" : "section",
+  "title" : "My Protocols",
+  "type" : "topic",
+  "url" : "\/documentation\/inner#My-Protocols"
+},
+"doc://Inner/documentation/Inner#My-Structs": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/Inner\/documentation\/Inner#My-Structs",
+  "kind" : "section",
+  "title" : "My Structs",
+  "type" : "topic",
+  "url" : "\/documentation\/inner#My-Structs"
+},
+"doc://Inner/documentation/Inner/InnerClass": {
+  "abstract" : [
+    {
+      "text" : "A class in the inner target.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "InnerClass"
+    }
+  ],
+  "identifier" : "doc:\/\/Inner\/documentation\/Inner\/InnerClass",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "InnerClass"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "InnerClass",
+  "type" : "topic",
+  "url" : "\/documentation\/inner\/innerclass"
+},
+"doc://Inner/documentation/Inner/InnerProtocol": {
+  "abstract" : [
+    {
+      "text" : "A protocol in the inner target.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "InnerProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/Inner\/documentation\/Inner\/InnerProtocol",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "InnerProtocol"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "InnerProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/inner\/innerprotocol"
+},
+"doc://Inner/documentation/Inner/InnerValue": {
+  "abstract" : [
+    {
+      "text" : "A public value in inner target.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "InnerValue"
+    }
+  ],
+  "identifier" : "doc:\/\/Inner\/documentation\/Inner\/InnerValue",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "InnerValue"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "InnerValue",
+  "type" : "topic",
+  "url" : "\/documentation\/inner\/innervalue"
+}
+}
+}

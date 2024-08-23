@@ -1,0 +1,92 @@
+{
+  "includedArchiveIdentifiers" : [
+    "Inner",
+    "Outer"
+  ],
+  "interfaceLanguages" : {
+    "swift" : [
+      {
+        "children" : [
+          {
+            "children" : [
+              {
+                "title" : "My Classes",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/inner\/innerclass",
+                "title" : "InnerClass",
+                "type" : "class"
+              },
+              {
+                "title" : "My Protocols",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/inner\/innerprotocol",
+                "title" : "InnerProtocol",
+                "type" : "protocol"
+              },
+              {
+                "title" : "My Structs",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/inner\/innervalue",
+                "title" : "InnerValue",
+                "type" : "struct"
+              }
+            ],
+            "path" : "\/documentation\/inner",
+            "title" : "Inner",
+            "type" : "module"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Classes",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/outer\/outerclass\/someproperty",
+                    "title" : "var someProperty: InnerValue",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/outer\/outerclass\/somefunction(_:)",
+                    "title" : "func someFunction(InnerValue) -> InnerValue",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/outer\/outerclass",
+                "title" : "OuterClass",
+                "type" : "class"
+              }
+            ],
+            "path" : "\/documentation\/outer",
+            "title" : "Outer",
+            "type" : "module"
+          }
+        ],
+        "path" : "\/documentation",
+        "title" : "Combined Documentation Example",
+        "type" : "module"
+      }
+    ]
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 1,
+    "patch" : 2
+  }
+}

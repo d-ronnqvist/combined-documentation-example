@@ -1,0 +1,156 @@
+{
+  "abstract" : [
+    {
+      "text" : "A public value in inner target.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/Inner\/documentation\/Inner"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Inner\/documentation\/Inner\/InnerValue"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:5Inner0A5ValueV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "InnerValue"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Inner"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "InnerValue"
+      }
+    ],
+    "remoteSource" : {
+      "fileName" : "Inner.swift",
+      "url" : "https:\/\/github.com\/d-ronnqvist\/CombinedDocumentationExample\/blob\/main\/Sources\/Inner\/Inner.swift#L29"
+    },
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "InnerValue"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "InnerValue"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/inner\/innervalue"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Inner/documentation/Inner": {
+  "abstract" : [
+    {
+      "text" : "The inner module of this combined-documentation example",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/Inner\/documentation\/Inner",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Inner",
+  "type" : "topic",
+  "url" : "\/documentation\/inner"
+},
+"doc://Inner/documentation/Inner/InnerValue": {
+  "abstract" : [
+    {
+      "text" : "A public value in inner target.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "InnerValue"
+    }
+  ],
+  "identifier" : "doc:\/\/Inner\/documentation\/Inner\/InnerValue",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "InnerValue"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "InnerValue",
+  "type" : "topic",
+  "url" : "\/documentation\/inner\/innervalue"
+}
+}
+}

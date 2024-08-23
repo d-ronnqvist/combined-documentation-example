@@ -1,0 +1,112 @@
+[
+  {
+    "abstract" : [
+      {
+        "text" : "A public value in inner target.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "InnerValue"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.structure",
+    "language" : "swift",
+    "path" : "\/documentation\/inner\/innervalue",
+    "referenceURL" : "doc:\/\/Inner\/documentation\/Inner\/InnerValue",
+    "title" : "InnerValue",
+    "usr" : "s:5Inner0A5ValueV"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "The inner module of this combined-documentation example",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "kind" : "org.swift.docc.kind.module",
+    "language" : "swift",
+    "path" : "\/documentation\/inner",
+    "referenceURL" : "doc:\/\/Inner\/documentation\/Inner",
+    "title" : "Inner",
+    "usr" : "Inner"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "A protocol in the inner target.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "protocol"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "InnerProtocol"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.protocol",
+    "language" : "swift",
+    "path" : "\/documentation\/inner\/innerprotocol",
+    "referenceURL" : "doc:\/\/Inner\/documentation\/Inner\/InnerProtocol",
+    "title" : "InnerProtocol",
+    "usr" : "s:5Inner0A8ProtocolP"
+  },
+  {
+    "abstract" : [
+      {
+        "text" : "A class in the inner target.",
+        "type" : "text"
+      }
+    ],
+    "availableLanguages" : [
+      "swift"
+    ],
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "InnerClass"
+      }
+    ],
+    "kind" : "org.swift.docc.kind.class",
+    "language" : "swift",
+    "path" : "\/documentation\/inner\/innerclass",
+    "referenceURL" : "doc:\/\/Inner\/documentation\/Inner\/InnerClass",
+    "title" : "InnerClass",
+    "usr" : "s:5Inner0A5ClassC"
+  }
+]

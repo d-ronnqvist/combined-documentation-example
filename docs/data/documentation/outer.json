@@ -1,0 +1,113 @@
+{
+  "abstract" : [
+    {
+      "text" : "The outer module of this combined-documentation example.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Outer\/documentation\/Outer"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "Outer",
+    "modules" : [
+      {
+        "name" : "Outer"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "Outer"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Classes",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/Outer\/documentation\/Outer\/OuterClass"
+      ],
+      "title" : "Classes"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/outer"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Outer/documentation/Outer": {
+  "abstract" : [
+    {
+      "text" : "The outer module of this combined-documentation example.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/Outer\/documentation\/Outer",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Outer",
+  "type" : "topic",
+  "url" : "\/documentation\/outer"
+},
+"doc://Outer/documentation/Outer/OuterClass": {
+  "abstract" : [
+    {
+      "text" : "A class in the outer target",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OuterClass"
+    }
+  ],
+  "identifier" : "doc:\/\/Outer\/documentation\/Outer\/OuterClass",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OuterClass"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OuterClass",
+  "type" : "topic",
+  "url" : "\/documentation\/outer\/outerclass"
+}
+}
+}

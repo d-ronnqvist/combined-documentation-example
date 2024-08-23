@@ -1,0 +1,60 @@
+{
+  "hierarchy" : null,
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Combined-Documentation-Example\/documentation"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "role" : "collection",
+    "roleHeading" : "Package",
+    "title" : "Combined Documentation Example"
+  },
+  "references" : {
+    "doc:\/\/Inner\/documentation\/Inner" : {
+      "abstract" : [
+        {
+          "text" : "The inner module of this combined-documentation example",
+          "type" : "text"
+        }
+      ],
+      "identifier" : "doc:\/\/Inner\/documentation\/Inner",
+      "kind" : "symbol",
+      "role" : "collection",
+      "title" : "Inner",
+      "type" : "topic",
+      "url" : "\/documentation\/inner"
+    },
+    "doc:\/\/Outer\/documentation\/Outer" : {
+      "abstract" : [
+        {
+          "text" : "The outer module of this combined-documentation example.",
+          "type" : "text"
+        }
+      ],
+      "identifier" : "doc:\/\/Outer\/documentation\/Outer",
+      "kind" : "symbol",
+      "role" : "collection",
+      "title" : "Outer",
+      "type" : "topic",
+      "url" : "\/documentation\/outer"
+    }
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/Inner\/documentation\/Inner",
+        "doc:\/\/Outer\/documentation\/Outer"
+      ]
+    }
+  ],
+  "topicSectionsStyle" : "detailedGrid"
+}
