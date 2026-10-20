@@ -1,0 +1,478 @@
+{
+  "abstract" : [
+    {
+      "text" : "A class in the outer target",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/Outer\/documentation\/Outer"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/Outer\/documentation\/Outer\/OuterClass"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:5Outer0A5ClassC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "OuterClass"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "Outer"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "OuterClass"
+      }
+    ],
+    "remoteSource" : {
+      "fileName" : "Outer.swift",
+      "url" : "https:\/\/github.com\/d-ronnqvist\/CombinedDocumentationExample\/blob\/main\/Sources\/Outer\/Outer.swift#L32"
+    },
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "OuterClass"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "OuterClass"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "This class inherits from ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Inner\/documentation\/Inner\/InnerClass",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " and conforms to ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Inner\/documentation\/Inner\/InnerProtocol",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ",",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "both from the ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/Inner\/documentation\/Inner",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " target.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "On the rendered page, the types listed under “Inherits From” and “Conforms To” at the bottom of the page are clickable links.",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "This happens automatically.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "Tip",
+          "style" : "tip",
+          "type" : "aside"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/Inner\/documentation\/Inner\/InnerClass"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherits From",
+      "type" : "inheritsFrom"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/Inner\/documentation\/Inner\/InnerProtocol"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/Outer\/documentation\/Outer\/OuterClass\/someProperty"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/Outer\/documentation\/Outer\/OuterClass\/someFunction(_:)"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/outer\/outerclass"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://Inner/documentation/Inner": {
+  "abstract" : [
+    {
+      "text" : "The inner module of this combined-documentation example",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/Inner\/documentation\/Inner",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Inner",
+  "type" : "topic",
+  "url" : "\/documentation\/inner"
+},
+"doc://Inner/documentation/Inner/InnerClass": {
+  "abstract" : [
+    {
+      "text" : "A class in the inner target.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "InnerClass"
+    }
+  ],
+  "identifier" : "doc:\/\/Inner\/documentation\/Inner\/InnerClass",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "InnerClass",
+  "type" : "topic",
+  "url" : "\/documentation\/inner\/innerclass"
+},
+"doc://Inner/documentation/Inner/InnerProtocol": {
+  "abstract" : [
+    {
+      "text" : "A protocol in the inner target.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "InnerProtocol"
+    }
+  ],
+  "identifier" : "doc:\/\/Inner\/documentation\/Inner\/InnerProtocol",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "InnerProtocol",
+  "type" : "topic",
+  "url" : "\/documentation\/inner\/innerprotocol"
+},
+"doc://Inner/documentation/Inner/InnerValue": {
+  "abstract" : [
+    {
+      "text" : "A public value in inner target.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "InnerValue"
+    }
+  ],
+  "identifier" : "doc:\/\/Inner\/documentation\/Inner\/InnerValue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "InnerValue",
+  "type" : "topic",
+  "url" : "\/documentation\/inner\/innervalue"
+},
+"doc://Outer/documentation/Outer": {
+  "abstract" : [
+    {
+      "text" : "The outer module of this combined-documentation example.",
+      "type" : "text"
+    }
+  ],
+  "identifier" : "doc:\/\/Outer\/documentation\/Outer",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Outer",
+  "type" : "topic",
+  "url" : "\/documentation\/outer"
+},
+"doc://Outer/documentation/Outer/OuterClass": {
+  "abstract" : [
+    {
+      "text" : "A class in the outer target",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OuterClass"
+    }
+  ],
+  "identifier" : "doc:\/\/Outer\/documentation\/Outer\/OuterClass",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OuterClass"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OuterClass",
+  "type" : "topic",
+  "url" : "\/documentation\/outer\/outerclass"
+},
+"doc://Outer/documentation/Outer/OuterClass/someFunction(_:)": {
+  "abstract" : [
+    {
+      "text" : "A function with ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Inner\/documentation\/Inner\/InnerValue",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " parameters and return values.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "someFunction"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5Inner0A5ValueV",
+      "text" : "InnerValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5Inner0A5ValueV",
+      "text" : "InnerValue"
+    }
+  ],
+  "identifier" : "doc:\/\/Outer\/documentation\/Outer\/OuterClass\/someFunction(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "someFunction(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/outer\/outerclass\/somefunction(_:)"
+},
+"doc://Outer/documentation/Outer/OuterClass/someProperty": {
+  "abstract" : [
+    {
+      "text" : "A property that returns a ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/Inner\/documentation\/Inner\/InnerValue",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " value.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "someProperty"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5Inner0A5ValueV",
+      "text" : "InnerValue"
+    }
+  ],
+  "identifier" : "doc:\/\/Outer\/documentation\/Outer\/OuterClass\/someProperty",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "someProperty",
+  "type" : "topic",
+  "url" : "\/documentation\/outer\/outerclass\/someproperty"
+}
+}
+}
